@@ -7,5 +7,10 @@ class Principal():
 
     def executar(self):
         """Comandos a serem executados para setar e testar valor"""
-        self.valor.setNumero(int(input("Digite o valor a ser testado se eh primo: ")))
-        self.valor.ehPrimo()
+        try:
+            entrada = int(input("Digite o valor a ser testado se eh primo: "))
+        except ValueError:
+            print("Valor inválido inserido")
+        else:
+            self.valor.setNumero(entrada)
+            self.valor.ehPrimo()
