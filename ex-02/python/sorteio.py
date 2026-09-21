@@ -16,7 +16,6 @@ class Ex2Sorteio():
                 entrada = int(input("Digite um valor entre 0 e 1000: "))
             except ValueError:
                 print("Valor inválido inserido")
-                entrada = -1
                 self.tentativas -= 1
             else:
                 if(entrada < 0 or entrada > 1000):
