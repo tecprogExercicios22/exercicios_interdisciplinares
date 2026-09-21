@@ -1,7 +1,7 @@
-import principal
+from principal import Principal
 
 def main():
-    testeNum = principal.Principal()
+    testeNum = Principal()
     testeNum.executar()
 
 if __name__ == "__main__":
