@@ -1,2 +1,0 @@
-from principal import Principal
-
