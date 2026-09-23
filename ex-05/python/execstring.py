@@ -20,8 +20,7 @@ class ExecString():
             contagem = dict(sorted(contagem.items()))
             print(f"A string {item + 1} possui tais caracteres e suas repetições:")
             for chave, valor in contagem.items():
-                ast = "*"*valor
-                print(f"\t{chave}: {ast} {valor}")
+                print(f"\t{chave}: {'*'*valor} {valor}")
                 
 
     def execute(self):
