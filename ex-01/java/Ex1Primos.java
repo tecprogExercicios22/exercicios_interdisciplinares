@@ -1,3 +1,5 @@
+// Código por Pedro Neves
+
 import java.util.Scanner;
 
 public class Ex1Primos {
