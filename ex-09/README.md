@@ -1,4 +1,4 @@
-### Exercicio 7
+### Exercicio 9
 
 **Fazer uma classe Ex3Array com as seguintes características:**
 
